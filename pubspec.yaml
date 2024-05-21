@@ -1,0 +1,50 @@
+name: flutter_layout
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/HG_Gundam_Aerial_Rebuild.png
+    - assets/images/HG_Gundam_Aerial.png
+    - assets/images/HG_Gundam_Calibarn.png
+    - assets/images/HG_Gundam_Lfrith.png
+    - assets/images/HG_Gundam_Lfrith_Ur.png
+    - assets/images/HG_Gundam_Lfrith_Thorn.png
+    - assets/images/HG_Gundam_Pharact.png
+    - assets/images/HG_Gundam_Schwarzette.png
+    - assets/images/lifrith1.jpg
+    - assets/images/lifrith2.jpg
+    - assets/images/lifrith3.jpg
+    - assets/images/aerialr1.jpg
+    - assets/images/aerialr2.jpg
+    - assets/images/aerialr3.jpg
+    - assets/images/ur1.jpg
+    - assets/images/ur2.jpg
+    - assets/images/ur3.jpg
+    - assets/images/cal1.jpg
+    - assets/images/cal2.jpg
+    - assets/images/cal3.jpg
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+    
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
